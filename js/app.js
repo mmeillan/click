@@ -30,7 +30,7 @@ angular.module("Clicker", ["ngSanitize"])
 
     // Buy
 
-    $scope.buy = function(update) {
-      
+    $scope.buyItem = function(item) {
+
     }
   });
