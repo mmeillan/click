@@ -27,19 +27,26 @@
       </div>
 
       <div class="mainMenu spacer">
-          <span ng-show="!auto" class="hspacer center" >
-            <button ng-click="autoclk()" type="button" name="autoclick" class="btn btn-lg btn-danger">AutoClick : OFF</button>
-          </span>
-          <span ng-show="auto" class="hspacer center" >
-            <button ng-click="autoclk()" type="button" name="autoclick" class="btn btn-lg btn-success">AutoClick : ON</button>
-          </span>
+        <span ng-show="!auto" class="hspacer center" >
+          <button ng-click="autoclk()" type="button" name="autoclick" class="btn btn-lg btn-danger">AutoClick : OFF</button>
+        </span>
+        <span ng-show="auto" class="hspacer center" >
+          <button ng-click="autoclk()" type="button" name="autoclick" class="btn btn-lg btn-success">AutoClick : ON</button>
+        </span>
 
-          <div class="stats spacer">
-            <ul class="list-group">
-              <li class="list-group-item">Money: {{score}} $</li>
-              <li class="list-group-item">Click: {{click}}</li>
-            </ul>
+        <div class="stats spacer">
+          <ul class="list-group">
+            <li class="list-group-item">Money: {{score}} $</li>
+            <li class="list-group-item">Click: {{click}}</li>
+          </ul>
+        </div>
+
+        <div class="menuAchat">
+          <div class="btn-group-vertical">
+            <button ng-click="buyItem('item1')" class="btn btn-warning-outline pull-left pull-bottom">Item 1</button>
+            <button ng-click="buyItem('item2')" class="btn btn-warning-outline pull-left pull-bottom">Item 2</button>
           </div>
+        </div>
       </div>
 
 

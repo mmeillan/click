@@ -39,11 +39,11 @@ a {
 
 .stats {
   width: 30%;
-   word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .center {
-     float: none;
-     margin-left: auto;
-     margin-right: auto;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
 }

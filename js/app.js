@@ -27,4 +27,10 @@ angular.module("Clicker", ["ngSanitize"])
         $interval.cancel(autoclicker);
       }
     }
+
+    // Buy
+
+    $scope.buy = function(update) {
+      
+    }
   });
