@@ -7,6 +7,9 @@ a {
 .hspacer {
   margin-left: 20px;
 }
+.hidescroll {
+  overflow:hidden;
+}
 .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
   background-color: #428BCA;
   color: #ffffff;
@@ -20,28 +23,27 @@ a {
 .colA {
   width: 15%;
 }
-.colObjet {
-  width: 45%;
-}
-.colDate {
-  width: 15%;
-}
-.surbrillanceRecherche {
-  background-color: #FFD42A;
+
+.clickme {
+  width: 500px;
+  height: 100px;
 }
 
-.labelChampNouveauMail {
-  width: 70px;
+.box {
+  margin: 50px auto;
+  background: #5FCF80;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
-.input-group {
-  width: 100%;
+.stats {
+  width: 30%;
+   word-wrap: break-word;
 }
 
-.contenuNouveauMail {
-  width: 100%;
-}
-
-input.ng-invalid {
-  background-color: rgba(255, 0, 0, 0.5);
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
 }
